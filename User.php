@@ -1,7 +1,17 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Balalla
- * Date: 2015-09-05
- * Time: AM 10:03
- */
+class User
+{
+    private $usrID;
+    function __construct($ID){
+        $this->usrID = $ID;
+    }
+
+    function createGroup(){
+        $gid= null;
+        $aid= null;
+        $newGroup = new Group($gid);
+        $newAdmin = new Admin($aid);
+
+
+    }
+}
