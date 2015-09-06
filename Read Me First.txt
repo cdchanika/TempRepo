@@ -1,0 +1,2 @@
+1. Import database_user.sql file to dump database
+2. Run index.php file in Login folder to login to system
